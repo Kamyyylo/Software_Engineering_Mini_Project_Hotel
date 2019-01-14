@@ -1,5 +1,6 @@
 package systemRezerwacjiPokoi;
 
+import java.util.Arrays;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
@@ -12,19 +13,25 @@ public class Aplikacja {
 
     int nrRezerwacji = 0;
     SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-    private final List<Klient> klienci = new ArrayList<>();
-    private final List<Pokoj> pokoje = new ArrayList<>();
+    private  List<Klient> klienci = new ArrayList<>();
+    private  List<Pokoj> pokoje = new ArrayList<>();
     public Aplikacja() {
 
     }
     public List<Klient> getKlient() {
         return klienci;
     }
+    
+    public void setKlient(List<Klient> klienciTmp){
+       klienci = klienciTmp;
+    }
+    
     public List<Pokoj> getPokoj()
     {
         return pokoje;
     }
-  
+    
+
     /**
      *
      * @param daneKlienta
@@ -103,6 +110,7 @@ public class Aplikacja {
         }
         return null;
     }
+    
 
     /**
      *

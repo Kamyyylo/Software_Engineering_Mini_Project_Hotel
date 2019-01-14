@@ -97,6 +97,10 @@ public class Klient {
     public ArrayList getRezerwacje() {
         return rezerwacje;
     }
+    
+    public int getIloscRezerwacji() {
+        return rezerwacje.size();
+    }
 
     
     public void zarezerwuj(Rezerwacja rezerwacja)
@@ -114,6 +118,7 @@ public class Klient {
     public void dodajRezerwacje(Rezerwacja rezerwacja){
         this.rezerwacje.add(rezerwacja);
     }
+    
 
     @Override
     public boolean equals(Object obj) {
