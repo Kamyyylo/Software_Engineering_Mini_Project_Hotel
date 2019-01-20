@@ -1,0 +1,13 @@
+---
+Test
+---
+!include DodawaniePokoju
+!include DodawanieKlienta
+!|testyFitnesseFixture.TestDodawanieRezerwacji|
+|daneKlienta					   |danePokoju	  |daneTermin|wartoscZadatek|dataZadatek|daneZyczenie|dodajRezerwacje?|liczbaRezerwacjiKlienta?|liczbaRezerwacjiPokoju?|
+|Jan,Kowalski,97102409534,721100200|1,1,zwykly,100|2019-01-10|100			|2019-01-09 |basen,masaz |true			  |1					   |1					   |
+|Jan,Kowalski,97102409534,721100200|1,1,zwykly,100|2019-01-10|100			|2019-01-09 |basen,masaz |false			  |1					   |1					   |
+|Jan,Kowalski,97102409534,721100200|1,1,zwykly,100|2019-01-11|150			|2019-01-10 |masaz 		 |true			  |2					   |2					   |
+|Jan,Kowalski,97102409534,721100200|1,1,zwykly,100|2019-01-11|150			|2019-01-10 |masaz 		 |false			  |2					   |2					   |
+|Jan,Kowalski,97102409534,721100200|5,2,zwykly,120|2019-01-12|100			|2019-01-10 |masaz 		 |false			  |2					   |2					   |
+|Stefan,As,77102409534,711000200   |1,1,zwykly,100|2019-01-13|100			|2019-01-12 |basen,masaz |false			  |2					   |2					   |

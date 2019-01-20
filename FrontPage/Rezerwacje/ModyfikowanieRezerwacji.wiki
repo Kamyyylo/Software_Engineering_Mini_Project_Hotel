@@ -1,0 +1,10 @@
+---
+Test
+---
+!include DodawanieRezerwacji
+!|testyFitnesseFixture.TestModyfikowanieRezerwacji|
+|daneKlienta					   |nrRezerwacji|daneTermin|wartoscZadatek|dataZadatek|daneZyczenie	   |modyfikujRezerwacje?|
+|Jan,Kowalski,97102409534,721100200|0			|2019-01-15|125			  |2019-01-09 |basen		   |true		  		|
+|Jan,Kowalski,97102409534,721100200|2			|2019-01-15|130			  |2019-01-14 |basen		   |false				|
+|Jan,Kowalski,97102409534,721100200|2			|2019-01-10|130			  |2019-01-09 |basen		   |true		 		|
+|Stefan,As,77102409534,711000200   |5			|2019-01-13|100			  |2019-01-12 |basen		   |false		  		|

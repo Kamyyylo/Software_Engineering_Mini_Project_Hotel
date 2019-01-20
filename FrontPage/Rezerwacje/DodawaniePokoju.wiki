@@ -1,0 +1,15 @@
+---
+Test
+---
+!|testyFitnesseFixture.TestDodawaniePokoju|
+|dane			|dodajPokoj?|liczbaPokoi?|
+|1,1,zwykly,100 |true		|1			 |
+|1,1,zwykly,100 |false		|1			 |
+|2,2,sredni,150 |true		|2			 |
+|2,2,sredni,150 |false		|2			 |
+|3,4,premium,250|true		|3			 |
+|3,4,premium,250|false		|3			 |
+|4,3,premium,200|true		|4			 |
+|4,3,premium,200|false		|4			 |
+|4,1,zwykly,100 |false		|4			 |
+

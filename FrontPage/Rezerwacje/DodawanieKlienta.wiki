@@ -1,0 +1,14 @@
+---
+Test
+---
+!|testyFitnesseFixture.TestDodawanieKlienta|
+|dane								   |dodajKlienta?|liczbaKlientow?|
+|Jan,Kowalski,97102409534,721100200    |true	     |1			     |
+|Jan,Kowalski,97102409534,721100200    |false	     |1			     |
+|Marian,Nowak,98101101134,711111222    |true	     |2			     |
+|Marian,Nowak,98101101134,711111222    |false	     |2			     |
+|Brunhilda,Sęp,68024101121,711222111   |true	     |3			     |
+|Brunhilda,Sęp,68024101121,711222111   |false	     |3			     |
+|Genowefa,Stojak,88034101121,700222333 |true	     |4			     |
+|Genowefa,Stojak,88034101121,700222333 |false	     |4			     |
+|Adam,Węgorzewski,88034101121,800100300|false	     |4			     |
